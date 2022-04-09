@@ -1,0 +1,32 @@
+
+
+========================================================================
+{
+  "data": {
+    "user": {
+      "id": "f9ce68b9-2875-4eaf-83ec-d40a20fd6dfb",
+      "phone": "+628298381990",
+      "user_status": "pending",
+      "user_type": "normal_user",
+      "sugar_id": "SG71328",
+      "country": "indonesia",
+      "latlong": null,
+      "user_device": {
+        "device_token": "1122ddd",
+        "device_type": "ios",
+        "device_status": "grant"
+      }
+    }
+  }
+}
+===========================token================================
+{
+  "data": {
+    "user": {
+      "access_token": "c1156cd606df9dc9fcb333c5e00a364f9dfc15a01dd55798fc3157a1fc9a71fa",
+      "token_type": "bearer"
+    }
+  }
+}
+
+link docs = https://docs.google.com/spreadsheets/d/1CviwFfM1n-Qsa0NyetW1k1Jj4frGAHtnR-Nm2VOGwiM/edit#gid=0
