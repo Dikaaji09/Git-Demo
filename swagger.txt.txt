@@ -1,0 +1,276 @@
+========================= collection dika =====================
+=========================                 =====================
+
+
+==========================exam=====================
+post test id=342529e2-b8dd-4007-953e-009c72211ead
+pretest id = e5d3a7a2-5b3c-44f8-841c-93e5552dc2ea
+==========================topic====================
+topic id = 5c5382e9-c801-47d7-846f-faabdb1663f5 
+=======================theory=====================
+theory id = d3b4e369-843a-433b-ad4a-05c9484ecb01
+=======================subject=====================
+subject id = e6c72404-24d8-4c21-8c0e-06a81fa74a0b
+========================package (draft) ===========
+package id = 66f01988-b4e5-4771-a8e8-cbb4c184f257
+===============================================================
+"theory_id": "d3b4e369-843a-433b-ad4a-05c9484ecb01"
+yang mau dihapus = "theory_id": "43e65ab2-3546-4a71-9961-9529fea79ae3",
+
+"package_id": "a17ad723-791b-4e16-bfdf-149c6f378110",
+      "subject_id": "e6c72404-24d8-4c21-8c0e-06a81fa74a0b",
+
+{
+  "id": "f4f8c971-3910-4863-b6a3-e1d2c989a1fc",
+  "name": "Package 3",
+  "alias": "Semester 1",
+  "price": 300000,
+  "start_period": "2022-02-01",
+  "end_period": "2022-02-10",
+  "status": "review",
+  "created_at": "2022-02-12T16:06:18.390946+00:00",
+  "updated_at": "2022-02-16T07:58:33.198961+00:00",
+  "package_curriculums": [
+    {
+      "id": "1f4b45fb-8fed-4239-b23e-6288ee071f33",
+      "package_id": "f4f8c971-3910-4863-b6a3-e1d2c989a1fc",
+      "curriculum_id": "7b8c7d2e-3355-4e8b-be26-73accfee8c3b",
+      "curriculum_name": "Genesis Curriculum",
+      "grade_id": "1d3a2d99-2b65-4a5c-97a2-99f79f427d11",
+      "grade_name": "Periode 1"
+    }
+  ],
+  "package_subjects": [
+    {
+      "id": "3668d90c-fdd9-47ad-8336-518c13a208dd",
+      "package_id": "f4f8c971-3910-4863-b6a3-e1d2c989a1fc",
+      "subject_id": "18d7d2d2-4b36-4eeb-b809-8571d047135d",
+      "package": {
+        "id": "f4f8c971-3910-4863-b6a3-e1d2c989a1fc",
+        "name": "Package 3",
+        "alias": "Semester 1",
+        "price": 300000
+      }
+    }
+  ]
+}
+
+class_id 46547303-89fe-4377-b47c-c64ef30e908a
+exam_id  de3382fc-7be1-4cd3-96f9-b9a8194820aa
+user_id  d5c2efd0-f251-4acb-881e-891a512e83c7
+school_period_id 55e2afea-40d3-46c8-b9a6-52089348166a
+=============================repro di student===========================
+/content/test/:packageId/:subjectId/:topicId/:level/:examType
+
+
+
+{
+  "id": "66f01988-b4e5-4771-a8e8-cbb4c184f257",
+  "name": "Base Test Package punya dika",
+  "alias": "punya dika",
+  "price": 125000,
+  "start_period": "2022-03-12",
+  "end_period": "2022-12-12",
+  "status": "draft",
+  "created_at": "2022-03-12T07:32:16.824456+00:00",
+  "updated_at": "2022-03-12T07:32:16.824463+00:00",
+  "package_curriculums": [
+    {
+      "id": "7ca6a4ab-e26d-4ba2-9dfc-a7a08d53a0bc",
+      "package_id": "66f01988-b4e5-4771-a8e8-cbb4c184f257",
+      "curriculum_id": "1f4b45fb-8fed-4239-b23e-6288ee071f33",
+      "curriculum_name": "Genesis Curriculum",
+      "grade_id": "1d3a2d99-2b65-4a5c-97a2-99f79f427d11",
+      "grade_name": "Periode 1"
+    }
+  ],
+  "package_subjects": [
+    {
+      "id": "27eca413-3afa-490b-9d48-eaf23f23aa95",
+      "package_id": "66f01988-b4e5-4771-a8e8-cbb4c184f257",
+      "subject_id": "e6c72404-24d8-4c21-8c0e-06a81fa74a0b",
+      "package": {
+        "id": "66f01988-b4e5-4771-a8e8-cbb4c184f257",
+        "name": "Base Test Package punya dika",
+        "alias": "punya dika",
+        "price": 125000
+      }
+    }
+  ]
+}
+
+===========================================================================
+
+{
+  "id": "7c387cd1-f18c-475c-b188-3f19c327a718",
+  "name": "coba posttest dika 1 ",
+  "type": "post-test",
+  "created_at": "2022-03-12T05:22:54.257160+00:00",
+  "updated_at": "2022-03-12T05:22:54.257167+00:00",
+  "exam_questions": [
+    {
+      "id": "815a7b97-2e37-4286-afc0-cb7982e97fbc",
+      "question_type": "multiple_choices",
+      "is_time_limiter": false,
+      "time_limiter_duration": 0,
+      "level": 1,
+      "question": "ini adalah soal no 1 ",
+      "multimedia_type": "image",
+      "multimedia_url": "http://image",
+      "exam_id": "7c387cd1-f18c-475c-b188-3f19c327a718",
+      "theory_id": "43e65ab2-3546-4a71-9961-9529fea79ae3",
+      "created_at": "2022-03-12T05:22:54.261358+00:00",
+      "updated_at": "2022-03-12T05:22:54.261363+00:00",
+      "exam_question_answers": [
+        {
+          "id": "8d7191b9-d776-432d-8442-de9ce5d54bad",
+          "description": "ini adalah soal salah",
+          "is_correct": false,
+          "order": 1,
+          "exam_question_id": "815a7b97-2e37-4286-afc0-cb7982e97fbc",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264062+00:00",
+          "updated_at": "2022-03-12T05:22:54.264066+00:00"
+        },
+        {
+          "id": "ec1eee97-fb82-409f-a021-8b3b794281a9",
+          "description": "ini adalah soal benar",
+          "is_correct": true,
+          "order": 2,
+          "exam_question_id": "815a7b97-2e37-4286-afc0-cb7982e97fbc",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264082+00:00",
+          "updated_at": "2022-03-12T05:22:54.264084+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ac46255c-b581-49f3-8771-a32cff1b5e49",
+      "question_type": "multiple_choices",
+      "is_time_limiter": false,
+      "time_limiter_duration": 0,
+      "level": 1,
+      "question": "ini adalah soal no 2 ",
+      "multimedia_type": "image",
+      "multimedia_url": "http://image",
+      "exam_id": "7c387cd1-f18c-475c-b188-3f19c327a718",
+      "theory_id": "43e65ab2-3546-4a71-9961-9529fea79ae3",
+      "created_at": "2022-03-12T05:22:54.261380+00:00",
+      "updated_at": "2022-03-12T05:22:54.261382+00:00",
+      "exam_question_answers": [
+        {
+          "id": "e446de8a-a6fe-454f-828e-030bd847f5a6",
+          "description": "ini adalah soal salah (soal 2)",
+          "is_correct": false,
+          "order": 3,
+          "exam_question_id": "ac46255c-b581-49f3-8771-a32cff1b5e49",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264097+00:00",
+          "updated_at": "2022-03-12T05:22:54.264099+00:00"
+        },
+        {
+          "id": "dd658497-2880-4975-8cd3-d6c01215ddb7",
+          "description": "ini adalah soal benar (soal 2)",
+          "is_correct": true,
+          "order": 4,
+          "exam_question_id": "ac46255c-b581-49f3-8771-a32cff1b5e49",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264112+00:00",
+          "updated_at": "2022-03-12T05:22:54.264114+00:00"
+        }
+      ]
+    }
+  ]
+}
+==================================================
+
+{
+  "id": "7c387cd1-f18c-475c-b188-3f19c327a718",
+  "name": "coba posttest dika 1 ",
+  "type": "post-test",
+  "created_at": "2022-03-12T05:22:54.257160+00:00",
+  "updated_at": "2022-03-12T05:22:54.257167+00:00",
+  "exam_questions": [
+    {
+      "id": "815a7b97-2e37-4286-afc0-cb7982e97fbc",
+      "question_type": "multiple_choices",
+      "is_time_limiter": false,
+      "time_limiter_duration": 0,
+      "level": 1,
+      "question": "ini adalah soal no 1 ",
+      "multimedia_type": "image",
+      "multimedia_url": "http://image",
+      "exam_id": "7c387cd1-f18c-475c-b188-3f19c327a718",
+      "theory_id": "43e65ab2-3546-4a71-9961-9529fea79ae3",
+      "created_at": "2022-03-12T05:22:54.261358+00:00",
+      "updated_at": "2022-03-12T05:22:54.261363+00:00",
+      "exam_question_answers": [
+        {
+          "id": "8d7191b9-d776-432d-8442-de9ce5d54bad",
+          "description": "ini adalah soal salah",
+          "is_correct": false,
+          "order": 1,
+          "exam_question_id": "815a7b97-2e37-4286-afc0-cb7982e97fbc",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264062+00:00",
+          "updated_at": "2022-03-12T05:22:54.264066+00:00"
+        },
+        {
+          "id": "ec1eee97-fb82-409f-a021-8b3b794281a9",
+          "description": "ini adalah soal benar",
+          "is_correct": true,
+          "order": 2,
+          "exam_question_id": "815a7b97-2e37-4286-afc0-cb7982e97fbc",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264082+00:00",
+          "updated_at": "2022-03-12T05:22:54.264084+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ac46255c-b581-49f3-8771-a32cff1b5e49",
+      "question_type": "multiple_choices",
+      "is_time_limiter": false,
+      "time_limiter_duration": 0,
+      "level": 1,
+      "question": "ini adalah soal no 2 ",
+      "multimedia_type": "image",
+      "multimedia_url": "http://image",
+      "exam_id": "7c387cd1-f18c-475c-b188-3f19c327a718",
+      "theory_id": "43e65ab2-3546-4a71-9961-9529fea79ae3",
+      "created_at": "2022-03-12T05:22:54.261380+00:00",
+      "updated_at": "2022-03-12T05:22:54.261382+00:00",
+      "exam_question_answers": [
+        {
+          "id": "e446de8a-a6fe-454f-828e-030bd847f5a6",
+          "description": "ini adalah soal salah (soal 2)",
+          "is_correct": false,
+          "order": 3,
+          "exam_question_id": "ac46255c-b581-49f3-8771-a32cff1b5e49",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264097+00:00",
+          "updated_at": "2022-03-12T05:22:54.264099+00:00"
+        },
+        {
+          "id": "dd658497-2880-4975-8cd3-d6c01215ddb7",
+          "description": "ini adalah soal benar (soal 2)",
+          "is_correct": true,
+          "order": 4,
+          "exam_question_id": "ac46255c-b581-49f3-8771-a32cff1b5e49",
+          "asset": null,
+          "created_at": "2022-03-12T05:22:54.264112+00:00",
+          "updated_at": "2022-03-12T05:22:54.264114+00:00"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+nabilsky@yopmail.com // gredu123
+
+[10:57 AM] package_id: 0a83e3bc-ba7c-493c-9ba6-53d2767286f4
+[10:57 AM] subject_id: 16a593c5-8d7f-4890-83f9-851f563b1e5e
+[10:58 AM] topic_id: 4a8c8177-face-4160-a8ee-5ebb0db093f9
+[10:58 AM] theory_id: 43e65ab2-3546-4a71-9961-9529fea79ae3
